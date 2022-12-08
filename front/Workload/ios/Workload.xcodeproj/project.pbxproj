@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WorkloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WorkloadTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-Workload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Workload.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-Workload-WorkloadTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Workload-WorkloadTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		3874CF79F3764135ABA2C86F /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520DF2090C86492CAC5B05D9 /* Raleway-Black.ttf */; };
+		CE6D69F9EBEA4CC5977AB299 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8675F8FAF5844CF79897113E /* Raleway-BlackItalic.ttf */; };
+		0BD10B8D8BDA4138B4AF1A3E /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87D7C1F80B1848EBB2B29C5C /* Raleway-Bold.ttf */; };
+		D9C0577D00284F93A834F1D2 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09DC1CF77CF5402FB0B118CB /* Raleway-BoldItalic.ttf */; };
+		0C63E79844444754ADF2D4F8 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89F3E5B31D964ED3B48BFBDC /* Raleway-ExtraBold.ttf */; };
+		ACB4166ECF974394BEEFA91D /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87A03882FE64A969DAEE84F /* Raleway-ExtraBoldItalic.ttf */; };
+		D4DA8F3F00A74B59B09209B1 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFBF7CBDB5464B925F7E8F /* Raleway-ExtraLight.ttf */; };
+		C72D46D450B04E88900A0BE3 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1893A0D14238452289DCA91D /* Raleway-ExtraLightItalic.ttf */; };
+		556BBF49FC27488491093D59 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CCD6FB0E07457D84DD21A2 /* Raleway-Italic.ttf */; };
+		1BB3207A7A9E4DFF84DBEA1C /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75029C71A464E2989E83F77 /* Raleway-Light.ttf */; };
+		FDC37B8F05C74A3AAE511EA8 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE46F4C22DA47ED86FC970E /* Raleway-LightItalic.ttf */; };
+		EE7BE20633214C59A090F659 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA52BD7304001A9D9A8CD /* Raleway-Medium.ttf */; };
+		62DA284E14694F2BB09CBEA9 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38E44BFFD6345E9B355842A /* Raleway-MediumItalic.ttf */; };
+		ADFBEEEE3373407BB03A221F /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177C2CDA4F444D2A5B90A8E /* Raleway-Regular.ttf */; };
+		92B4C23A61CE4A28A2AE6DF8 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5F2016A73D4A568CFDBC12 /* Raleway-SemiBold.ttf */; };
+		3691AD7B989F49E3B2FD11A5 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08343E72978A4B268E8DF26C /* Raleway-SemiBoldItalic.ttf */; };
+		24E1E807FAD74492B38990AA /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A215573056334D83B9626F90 /* Raleway-Thin.ttf */; };
+		5DF2DDCFC00C4F1A9B093212 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B03F418017F24A25A12AAF3B /* Raleway-ThinItalic.ttf */; };
+		7492C8F2626A4A0F8B09D767 /* Elevation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90FB74FEA2434475ABF73CF3 /* Elevation.ttf */; };
+		76C93031CC5E42EFA0A71FF7 /* BabelSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841990AE1F7947FAB952EA83 /* BabelSans-Bold.ttf */; };
+		7C75D14802BD495495F14693 /* BabelSans-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A651F49749404EA78859DCEF /* BabelSans-BoldOblique.ttf */; };
+		5469686BFDC44B5797DC2A90 /* BabelSans-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA2D1DB3B8DD4F67B0E9FE3E /* BabelSans-Oblique.ttf */; };
+		4F08AA4107394B69AE5E2093 /* BabelSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBE5D992058D4AD298FC27ED /* BabelSans.ttf */; };
+		CC3E3239159946FFB997EA6A /* Tepeno Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE20AD6563048E6909505C4 /* Tepeno Sans Bold Italic.ttf */; };
+		D042F5BA358B4817A3FCC486 /* Tepeno Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2BB9C5E924D04986DA526 /* Tepeno Sans Bold.ttf */; };
+		77B66FC95F1A4A1CA1F3D060 /* Tepeno Sans Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA214C8D221741DDAD128D7D /* Tepeno Sans Light Italic.ttf */; };
+		A0D8973103C243F599C28D8A /* Tepeno Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E2E6D402C6345EDAF9E2DD9 /* Tepeno Sans Light.ttf */; };
+		149BE311DA5F44EA8BC2E28E /* Tepeno Sans Regular Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4854D858D11347F697ADEE5D /* Tepeno Sans Regular Italic.ttf */; };
+		ADAA2477327C49548C0131C7 /* Tepeno Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2800250CD5949BD93BA2FFC /* Tepeno Sans Regular.ttf */; };
+		7250733FE4174EE7AAE53F4E /* MadeynSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977DB8A742A545FF9D9DB653 /* MadeynSans-Bold.ttf */; };
+		A89D9461DE7B45C7B0B47421 /* MadeynSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32D1E725E874A2A81E8C300 /* MadeynSans-BoldItalic.ttf */; };
+		B58D608D3E5B44CD812461D6 /* MadeynSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0867F3A3AB6F4202ADFA119A /* MadeynSans-Light.ttf */; };
+		AA06DAE8558D4F9F95B7B18E /* MadeynSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18F667F053104CB6A98781B9 /* MadeynSans-LightItalic.ttf */; };
+		C8965F8B9B654A758ECFE712 /* MadeynSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE774BEBBB0421CBD7F75D9 /* MadeynSans-Regular.ttf */; };
+		FF5CE1524EB347B6ADEBA027 /* MadeynSans-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF39D56AF154AD09318473B /* MadeynSans-RegularItalic.ttf */; };
+		501D07EFD3094130B975B04A /* MadeynSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C22EA5C7C5346479AC33D01 /* MadeynSans-Semibold.ttf */; };
+		C3AB65B80C0246919365A15F /* MadeynSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B849769216466994B0EC47 /* MadeynSans-SemiboldItalic.ttf */; };
+		CD32065BE20F492AB95DA468 /* Gogh-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9B02DFB7085431D82C5E6E9 /* Gogh-ExtraBold.ttf */; };
+		C241D6D6B8334B699BD28D67 /* Gogh-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EC809E1457047DD8E1AE30A /* Gogh-ExtraBoldItalic.ttf */; };
+		E2EE2E82089A4BA49AE0FF05 /* HWYGCOND.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EB03DBF0162A4ACA856ED1F0 /* HWYGCOND.TTF */; };
+		A8D8C40C841743BE8BF3152C /* HWYGEXPD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 116B810897314CB2A0E7C7C6 /* HWYGEXPD.TTF */; };
+		A031410D4CF241B4992509B8 /* HWYGNRRW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B819A18A64340A101522B /* HWYGNRRW.TTF */; };
+		F4379D8EFAA54AAE9C37F782 /* HWYGOTH.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5245A4B8FB9546CAB773AA12 /* HWYGOTH.TTF */; };
+		713C68FEB6F94E8C996FC104 /* HWYGWDE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = AE765F67C3DB4651A688D7BC /* HWYGWDE.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Workload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* WorkloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WorkloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkloadTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Workload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Workload/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Workload/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Workload/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Workload/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Workload/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Workload-WorkloadTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Workload-WorkloadTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-Workload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workload.debug.xcconfig"; path = "Target Support Files/Pods-Workload/Pods-Workload.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Workload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workload.release.xcconfig"; path = "Target Support Files/Pods-Workload/Pods-Workload.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-Workload-WorkloadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workload-WorkloadTests.debug.xcconfig"; path = "Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Workload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Workload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Workload/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-Workload-WorkloadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workload-WorkloadTests.release.xcconfig"; path = "Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		520DF2090C86492CAC5B05D9 /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8675F8FAF5844CF79897113E /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87D7C1F80B1848EBB2B29C5C /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09DC1CF77CF5402FB0B118CB /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89F3E5B31D964ED3B48BFBDC /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E87A03882FE64A969DAEE84F /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FFFBF7CBDB5464B925F7E8F /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1893A0D14238452289DCA91D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85CCD6FB0E07457D84DD21A2 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic.ttf"; path = "../assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F75029C71A464E2989E83F77 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDE46F4C22DA47ED86FC970E /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF1CA52BD7304001A9D9A8CD /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A38E44BFFD6345E9B355842A /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4177C2CDA4F444D2A5B90A8E /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B5F2016A73D4A568CFDBC12 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08343E72978A4B268E8DF26C /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A215573056334D83B9626F90 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B03F418017F24A25A12AAF3B /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90FB74FEA2434475ABF73CF3 /* Elevation.ttf */ = {isa = PBXFileReference; name = "Elevation.ttf"; path = "../assets/fonts/Elevation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		841990AE1F7947FAB952EA83 /* BabelSans-Bold.ttf */ = {isa = PBXFileReference; name = "BabelSans-Bold.ttf"; path = "../assets/fonts/BabelSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A651F49749404EA78859DCEF /* BabelSans-BoldOblique.ttf */ = {isa = PBXFileReference; name = "BabelSans-BoldOblique.ttf"; path = "../assets/fonts/BabelSans-BoldOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA2D1DB3B8DD4F67B0E9FE3E /* BabelSans-Oblique.ttf */ = {isa = PBXFileReference; name = "BabelSans-Oblique.ttf"; path = "../assets/fonts/BabelSans-Oblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBE5D992058D4AD298FC27ED /* BabelSans.ttf */ = {isa = PBXFileReference; name = "BabelSans.ttf"; path = "../assets/fonts/BabelSans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDE20AD6563048E6909505C4 /* Tepeno Sans Bold Italic.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Bold Italic.ttf"; path = "../assets/fonts/Tepeno Sans Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CB2BB9C5E924D04986DA526 /* Tepeno Sans Bold.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Bold.ttf"; path = "../assets/fonts/Tepeno Sans Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA214C8D221741DDAD128D7D /* Tepeno Sans Light Italic.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Light Italic.ttf"; path = "../assets/fonts/Tepeno Sans Light Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E2E6D402C6345EDAF9E2DD9 /* Tepeno Sans Light.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Light.ttf"; path = "../assets/fonts/Tepeno Sans Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4854D858D11347F697ADEE5D /* Tepeno Sans Regular Italic.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Regular Italic.ttf"; path = "../assets/fonts/Tepeno Sans Regular Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2800250CD5949BD93BA2FFC /* Tepeno Sans Regular.ttf */ = {isa = PBXFileReference; name = "Tepeno Sans Regular.ttf"; path = "../assets/fonts/Tepeno Sans Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		977DB8A742A545FF9D9DB653 /* MadeynSans-Bold.ttf */ = {isa = PBXFileReference; name = "MadeynSans-Bold.ttf"; path = "../assets/fonts/MadeynSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A32D1E725E874A2A81E8C300 /* MadeynSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "MadeynSans-BoldItalic.ttf"; path = "../assets/fonts/MadeynSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0867F3A3AB6F4202ADFA119A /* MadeynSans-Light.ttf */ = {isa = PBXFileReference; name = "MadeynSans-Light.ttf"; path = "../assets/fonts/MadeynSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18F667F053104CB6A98781B9 /* MadeynSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "MadeynSans-LightItalic.ttf"; path = "../assets/fonts/MadeynSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AAE774BEBBB0421CBD7F75D9 /* MadeynSans-Regular.ttf */ = {isa = PBXFileReference; name = "MadeynSans-Regular.ttf"; path = "../assets/fonts/MadeynSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EF39D56AF154AD09318473B /* MadeynSans-RegularItalic.ttf */ = {isa = PBXFileReference; name = "MadeynSans-RegularItalic.ttf"; path = "../assets/fonts/MadeynSans-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C22EA5C7C5346479AC33D01 /* MadeynSans-Semibold.ttf */ = {isa = PBXFileReference; name = "MadeynSans-Semibold.ttf"; path = "../assets/fonts/MadeynSans-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0B849769216466994B0EC47 /* MadeynSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; name = "MadeynSans-SemiboldItalic.ttf"; path = "../assets/fonts/MadeynSans-SemiboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9B02DFB7085431D82C5E6E9 /* Gogh-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Gogh-ExtraBold.ttf"; path = "../assets/fonts/Gogh-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8EC809E1457047DD8E1AE30A /* Gogh-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Gogh-ExtraBoldItalic.ttf"; path = "../assets/fonts/Gogh-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB03DBF0162A4ACA856ED1F0 /* HWYGCOND.TTF */ = {isa = PBXFileReference; name = "HWYGCOND.TTF"; path = "../assets/fonts/HWYGCOND.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		116B810897314CB2A0E7C7C6 /* HWYGEXPD.TTF */ = {isa = PBXFileReference; name = "HWYGEXPD.TTF"; path = "../assets/fonts/HWYGEXPD.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B1B819A18A64340A101522B /* HWYGNRRW.TTF */ = {isa = PBXFileReference; name = "HWYGNRRW.TTF"; path = "../assets/fonts/HWYGNRRW.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5245A4B8FB9546CAB773AA12 /* HWYGOTH.TTF */ = {isa = PBXFileReference; name = "HWYGOTH.TTF"; path = "../assets/fonts/HWYGOTH.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE765F67C3DB4651A688D7BC /* HWYGWDE.TTF */ = {isa = PBXFileReference; name = "HWYGWDE.TTF"; path = "../assets/fonts/HWYGWDE.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-Workload-WorkloadTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-Workload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WorkloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WorkloadTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WorkloadTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Workload */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Workload;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Workload.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Workload-WorkloadTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Workload */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WorkloadTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				11562A07EFE949E7BED9D404 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Workload.app */,
+				00E356EE1AD99517003FC87E /* WorkloadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Workload.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Workload.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-Workload-WorkloadTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-Workload-WorkloadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		11562A07EFE949E7BED9D404 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				520DF2090C86492CAC5B05D9 /* Raleway-Black.ttf */,
+				8675F8FAF5844CF79897113E /* Raleway-BlackItalic.ttf */,
+				87D7C1F80B1848EBB2B29C5C /* Raleway-Bold.ttf */,
+				09DC1CF77CF5402FB0B118CB /* Raleway-BoldItalic.ttf */,
+				89F3E5B31D964ED3B48BFBDC /* Raleway-ExtraBold.ttf */,
+				E87A03882FE64A969DAEE84F /* Raleway-ExtraBoldItalic.ttf */,
+				8FFFBF7CBDB5464B925F7E8F /* Raleway-ExtraLight.ttf */,
+				1893A0D14238452289DCA91D /* Raleway-ExtraLightItalic.ttf */,
+				85CCD6FB0E07457D84DD21A2 /* Raleway-Italic.ttf */,
+				F75029C71A464E2989E83F77 /* Raleway-Light.ttf */,
+				BDE46F4C22DA47ED86FC970E /* Raleway-LightItalic.ttf */,
+				BF1CA52BD7304001A9D9A8CD /* Raleway-Medium.ttf */,
+				A38E44BFFD6345E9B355842A /* Raleway-MediumItalic.ttf */,
+				4177C2CDA4F444D2A5B90A8E /* Raleway-Regular.ttf */,
+				4B5F2016A73D4A568CFDBC12 /* Raleway-SemiBold.ttf */,
+				08343E72978A4B268E8DF26C /* Raleway-SemiBoldItalic.ttf */,
+				A215573056334D83B9626F90 /* Raleway-Thin.ttf */,
+				B03F418017F24A25A12AAF3B /* Raleway-ThinItalic.ttf */,
+				90FB74FEA2434475ABF73CF3 /* Elevation.ttf */,
+				841990AE1F7947FAB952EA83 /* BabelSans-Bold.ttf */,
+				A651F49749404EA78859DCEF /* BabelSans-BoldOblique.ttf */,
+				DA2D1DB3B8DD4F67B0E9FE3E /* BabelSans-Oblique.ttf */,
+				FBE5D992058D4AD298FC27ED /* BabelSans.ttf */,
+				CDE20AD6563048E6909505C4 /* Tepeno Sans Bold Italic.ttf */,
+				9CB2BB9C5E924D04986DA526 /* Tepeno Sans Bold.ttf */,
+				AA214C8D221741DDAD128D7D /* Tepeno Sans Light Italic.ttf */,
+				3E2E6D402C6345EDAF9E2DD9 /* Tepeno Sans Light.ttf */,
+				4854D858D11347F697ADEE5D /* Tepeno Sans Regular Italic.ttf */,
+				B2800250CD5949BD93BA2FFC /* Tepeno Sans Regular.ttf */,
+				977DB8A742A545FF9D9DB653 /* MadeynSans-Bold.ttf */,
+				A32D1E725E874A2A81E8C300 /* MadeynSans-BoldItalic.ttf */,
+				0867F3A3AB6F4202ADFA119A /* MadeynSans-Light.ttf */,
+				18F667F053104CB6A98781B9 /* MadeynSans-LightItalic.ttf */,
+				AAE774BEBBB0421CBD7F75D9 /* MadeynSans-Regular.ttf */,
+				4EF39D56AF154AD09318473B /* MadeynSans-RegularItalic.ttf */,
+				0C22EA5C7C5346479AC33D01 /* MadeynSans-Semibold.ttf */,
+				C0B849769216466994B0EC47 /* MadeynSans-SemiboldItalic.ttf */,
+				C9B02DFB7085431D82C5E6E9 /* Gogh-ExtraBold.ttf */,
+				8EC809E1457047DD8E1AE30A /* Gogh-ExtraBoldItalic.ttf */,
+				EB03DBF0162A4ACA856ED1F0 /* HWYGCOND.TTF */,
+				116B810897314CB2A0E7C7C6 /* HWYGEXPD.TTF */,
+				7B1B819A18A64340A101522B /* HWYGNRRW.TTF */,
+				5245A4B8FB9546CAB773AA12 /* HWYGOTH.TTF */,
+				AE765F67C3DB4651A688D7BC /* HWYGWDE.TTF */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WorkloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WorkloadTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WorkloadTests;
+			productName = WorkloadTests;
+			productReference = 00E356EE1AD99517003FC87E /* WorkloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Workload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Workload" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Workload;
+			productName = Workload;
+			productReference = 13B07F961A680F5B00A75B9A /* Workload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Workload" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Workload */,
+				00E356ED1AD99517003FC87E /* WorkloadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3874CF79F3764135ABA2C86F /* Raleway-Black.ttf in Resources */,
+				CE6D69F9EBEA4CC5977AB299 /* Raleway-BlackItalic.ttf in Resources */,
+				0BD10B8D8BDA4138B4AF1A3E /* Raleway-Bold.ttf in Resources */,
+				D9C0577D00284F93A834F1D2 /* Raleway-BoldItalic.ttf in Resources */,
+				0C63E79844444754ADF2D4F8 /* Raleway-ExtraBold.ttf in Resources */,
+				ACB4166ECF974394BEEFA91D /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				D4DA8F3F00A74B59B09209B1 /* Raleway-ExtraLight.ttf in Resources */,
+				C72D46D450B04E88900A0BE3 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				556BBF49FC27488491093D59 /* Raleway-Italic.ttf in Resources */,
+				1BB3207A7A9E4DFF84DBEA1C /* Raleway-Light.ttf in Resources */,
+				FDC37B8F05C74A3AAE511EA8 /* Raleway-LightItalic.ttf in Resources */,
+				EE7BE20633214C59A090F659 /* Raleway-Medium.ttf in Resources */,
+				62DA284E14694F2BB09CBEA9 /* Raleway-MediumItalic.ttf in Resources */,
+				ADFBEEEE3373407BB03A221F /* Raleway-Regular.ttf in Resources */,
+				92B4C23A61CE4A28A2AE6DF8 /* Raleway-SemiBold.ttf in Resources */,
+				3691AD7B989F49E3B2FD11A5 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				24E1E807FAD74492B38990AA /* Raleway-Thin.ttf in Resources */,
+				5DF2DDCFC00C4F1A9B093212 /* Raleway-ThinItalic.ttf in Resources */,
+				7492C8F2626A4A0F8B09D767 /* Elevation.ttf in Resources */,
+				76C93031CC5E42EFA0A71FF7 /* BabelSans-Bold.ttf in Resources */,
+				7C75D14802BD495495F14693 /* BabelSans-BoldOblique.ttf in Resources */,
+				5469686BFDC44B5797DC2A90 /* BabelSans-Oblique.ttf in Resources */,
+				4F08AA4107394B69AE5E2093 /* BabelSans.ttf in Resources */,
+				CC3E3239159946FFB997EA6A /* Tepeno Sans Bold Italic.ttf in Resources */,
+				D042F5BA358B4817A3FCC486 /* Tepeno Sans Bold.ttf in Resources */,
+				77B66FC95F1A4A1CA1F3D060 /* Tepeno Sans Light Italic.ttf in Resources */,
+				A0D8973103C243F599C28D8A /* Tepeno Sans Light.ttf in Resources */,
+				149BE311DA5F44EA8BC2E28E /* Tepeno Sans Regular Italic.ttf in Resources */,
+				ADAA2477327C49548C0131C7 /* Tepeno Sans Regular.ttf in Resources */,
+				7250733FE4174EE7AAE53F4E /* MadeynSans-Bold.ttf in Resources */,
+				A89D9461DE7B45C7B0B47421 /* MadeynSans-BoldItalic.ttf in Resources */,
+				B58D608D3E5B44CD812461D6 /* MadeynSans-Light.ttf in Resources */,
+				AA06DAE8558D4F9F95B7B18E /* MadeynSans-LightItalic.ttf in Resources */,
+				C8965F8B9B654A758ECFE712 /* MadeynSans-Regular.ttf in Resources */,
+				FF5CE1524EB347B6ADEBA027 /* MadeynSans-RegularItalic.ttf in Resources */,
+				501D07EFD3094130B975B04A /* MadeynSans-Semibold.ttf in Resources */,
+				C3AB65B80C0246919365A15F /* MadeynSans-SemiboldItalic.ttf in Resources */,
+				CD32065BE20F492AB95DA468 /* Gogh-ExtraBold.ttf in Resources */,
+				C241D6D6B8334B699BD28D67 /* Gogh-ExtraBoldItalic.ttf in Resources */,
+				E2EE2E82089A4BA49AE0FF05 /* HWYGCOND.TTF in Resources */,
+				A8D8C40C841743BE8BF3152C /* HWYGEXPD.TTF in Resources */,
+				A031410D4CF241B4992509B8 /* HWYGNRRW.TTF in Resources */,
+				F4379D8EFAA54AAE9C37F782 /* HWYGOTH.TTF in Resources */,
+				713C68FEB6F94E8C996FC104 /* HWYGWDE.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workload-WorkloadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workload/Pods-Workload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Workload-WorkloadTests/Pods-Workload-WorkloadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WorkloadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Workload */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Workload-WorkloadTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkloadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workload.app/Workload";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Workload-WorkloadTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WorkloadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workload.app/Workload";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Workload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Workload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Workload;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Workload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Workload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Workload;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WorkloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Workload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Workload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
