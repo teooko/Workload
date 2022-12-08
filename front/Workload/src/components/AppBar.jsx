@@ -4,7 +4,6 @@ import { View } from 'react-native'
 import { scale } from 'react-native-size-matters';
 
 const AppBar = () => {
-
     return (
         <View style={{flex: 1, alignSelf: "stretch"}}>
             <Appbar.Header>
@@ -12,7 +11,6 @@ const AppBar = () => {
             </Appbar.Header>
         </View>
     )
-
 }
 
 export default AppBar

@@ -83,7 +83,6 @@ const Main = () => {
                         </View>
                     </Card>
                 </View>
-
             </View>
         </Surface>
     );

@@ -4,7 +4,8 @@ import { View } from 'react-native'
 import { scale } from 'react-native-size-matters';
 
 const DateDay = ({item}) => {
-    const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ]
+    const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ];
+    
     return (
         <Card width = {scale(70)} mode = {'contained'} marginLeft = {scale(13)}>
             <View style={{ justifyContent: "center", flexDirection: "column", alignItems: "center", alignSelf: "center"}} height = {"100%"}>
@@ -16,7 +17,6 @@ const DateDay = ({item}) => {
                 </View>
             </View>
         </Card>
-
     )
 }
 
