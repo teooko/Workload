@@ -4,7 +4,7 @@ import {View} from 'react-native';
 import PieChart from 'react-native-pie-chart';
 import {moderateScale} from 'react-native-size-matters';
 import Activity from './components/Activity';
-import AddActivity from './components/AddActivityButton';
+import AddActivityButton from './components/AddActivityButton';
 
 export default DaySummary = () => {
   return (
@@ -41,7 +41,7 @@ export default DaySummary = () => {
             <Activity color={'yellow'} name={'Dormit'} />
           </View>
           <View style={{flex: 15, alignSelf: 'center'}}>
-            <AddActivity />
+            <AddActivityButton />
           </View>
         </View>
       </Card>

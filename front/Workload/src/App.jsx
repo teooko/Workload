@@ -57,12 +57,12 @@ const theme = {
     inverseOnSurface: 'yellow',
     inverseSurface: 'yellow',
     inversePrimary: 'yellow',
-    backdrop: 'yellow',
+    backdrop: 'rgba(0, 0, 0, 0.0)',
     elevation: {
       level0: '#272B37',
       level1: 'yellow',
       level2: 'yellow',
-      level3: 'yellow',
+      level3: '#CC4B35',
       level4: 'yellow',
       level5: 'yellow',
     },
@@ -71,7 +71,7 @@ const theme = {
 
 export default function App() {
   return (
-    <PaperProvider theme = {theme}>
+    <PaperProvider theme={theme}>
       <Main />
     </PaperProvider>
   );
