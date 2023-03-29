@@ -5,6 +5,7 @@ import {
 } from 'react-native-paper';
 import Main from './components/Main';
 import {scale} from 'react-native-size-matters';
+import 'react-native-gesture-handler';
 
 const fontConfig = {
   titleMedium: {

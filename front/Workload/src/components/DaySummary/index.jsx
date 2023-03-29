@@ -5,6 +5,7 @@ import PieChart from 'react-native-pie-chart';
 import {moderateScale} from 'react-native-size-matters';
 import Activity from './components/Activity';
 import AddActivityButton from './components/AddActivityButton';
+import MenuDrawer from '../AppBar/components/MenuDrawer';
 
 export default DaySummary = () => {
   return (

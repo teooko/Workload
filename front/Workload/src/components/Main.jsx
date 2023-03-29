@@ -10,6 +10,8 @@ import {
 } from '../utility/Calendar.jsx';
 import ScrollingCalendar from './ScrollingCalendar';
 import DaySummary from './DaySummary';
+import {createDrawerNavigator} from '@react-navigation/drawer';
+import {NavigationContainer} from 'react-navigation';
 
 const Main = () => {
   const [days, setDays] = useState([]);
@@ -40,6 +42,16 @@ const Main = () => {
       setYear(calendarTitle.year);
     }
   }, []);
+
+  // const Drawer = createDrawerNavigator();
+  /*
+  <NavigationContainer>
+        <Drawer.Navigator initialRouteName="Home">
+          <Drawer.Screen name="Home" />
+          <Drawer.Screen name="Notifications" />
+        </Drawer.Navigator>
+      </NavigationContainer>
+        */
 
   return (
     <Surface elevation={0}>
